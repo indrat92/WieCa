@@ -56,7 +56,7 @@ class UVIndexViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         locationManager.startUpdatingLocation()
-        locationManager.requestWhenInUseAuthorization()
+        //locationManager.requestWhenInUseAuthorization()
         WEATHER_URL = receiveDataFromMenu
         
         print("===============================")
@@ -203,8 +203,6 @@ class UVIndexViewController: UIViewController, CLLocationManagerDelegate {
                 
                 let longitude = String(location!.coordinate.longitude)
                 let latitude = String(location!.coordinate.latitude)
-                
-                
                 let params: [String : String] = ["appid":APP_ID, "lon":longitude, "lat":latitude]
                 
                 getData(url: WEATHER_URL, parameter: params)

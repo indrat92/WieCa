@@ -15,6 +15,8 @@
 		8F644F622265B48300135C9A /* UVIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F644F612265B48300135C9A /* UVIndexViewController.swift */; };
 		8F644F682265CE2200135C9A /* UVIDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F644F672265CE2200135C9A /* UVIDataModel.swift */; };
 		8F7FCC9422681B01006E38BC /* BeatifullyAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FCC9322681B01006E38BC /* BeatifullyAll.swift */; };
+		8F9C479F226C4630001710D5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C479E226C4630001710D5 /* WeatherViewController.swift */; };
+		8F9C47A3226C54A4001710D5 /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C47A2226C54A4001710D5 /* city.list.json */; };
 		CF874C09767FB1EE5D6D6F93 /* Pods_WieCa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6398E41498D76611CEAC57 /* Pods_WieCa.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		8F644F612265B48300135C9A /* UVIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndexViewController.swift; sourceTree = "<group>"; };
 		8F644F672265CE2200135C9A /* UVIDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIDataModel.swift; sourceTree = "<group>"; };
 		8F7FCC9322681B01006E38BC /* BeatifullyAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatifullyAll.swift; sourceTree = "<group>"; };
+		8F9C479E226C4630001710D5 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		8F9C47A2226C54A4001710D5 /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		8F644F492265AF0D00135C9A /* WieCa */ = {
 			isa = PBXGroup;
 			children = (
+				8F9C47A1226C5480001710D5 /* Additional */,
 				8F644F642265BAD700135C9A /* Model */,
 				8F644F5C2265AF1D00135C9A /* View Controller */,
 				8F644F4A2265AF0D00135C9A /* AppDelegate.swift */,
@@ -91,6 +96,7 @@
 			children = (
 				8F644F4C2265AF0D00135C9A /* ViewController.swift */,
 				8F644F612265B48300135C9A /* UVIndexViewController.swift */,
+				8F9C479E226C4630001710D5 /* WeatherViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -102,6 +108,14 @@
 				8F7FCC9322681B01006E38BC /* BeatifullyAll.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8F9C47A1226C5480001710D5 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C47A2226C54A4001710D5 /* city.list.json */,
+			);
+			path = Additional;
 			sourceTree = "<group>";
 		};
 		C8B007DCA83B1C8EA997ABE2 /* Pods */ = {
@@ -174,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F644F552265AF0E00135C9A /* LaunchScreen.storyboard in Resources */,
+				8F9C47A3226C54A4001710D5 /* city.list.json in Resources */,
 				8F644F522265AF0E00135C9A /* Assets.xcassets in Resources */,
 				8F644F502265AF0D00135C9A /* Main.storyboard in Resources */,
 			);
@@ -236,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7FCC9422681B01006E38BC /* BeatifullyAll.swift in Sources */,
+				8F9C479F226C4630001710D5 /* WeatherViewController.swift in Sources */,
 				8F644F682265CE2200135C9A /* UVIDataModel.swift in Sources */,
 				8F644F4D2265AF0D00135C9A /* ViewController.swift in Sources */,
 				8F644F4B2265AF0D00135C9A /* AppDelegate.swift in Sources */,

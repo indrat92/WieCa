@@ -10,6 +10,7 @@ import Foundation
 
 class UVIDataModel {
     
+    /// use for uv index
     var long: String = ""
     var lat: String = ""
     var dateUVI: String = ""
@@ -19,6 +20,10 @@ class UVIDataModel {
     var city : String = ""
     var street : String = ""
     
+    // use for weather
+    var temperatur:Double = 0
+    var pressure:Double = 0
+    var humidity:Double = 0
     
     func updateUVIIcon(valueUVI: Double)-> String {
         switch valueUVI {
