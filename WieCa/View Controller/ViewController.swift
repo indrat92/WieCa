@@ -56,6 +56,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    let a = "test print"
+    
 
 }
 
